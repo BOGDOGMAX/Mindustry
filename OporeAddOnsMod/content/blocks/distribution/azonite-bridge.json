@@ -1,0 +1,24 @@
+{
+  "type": "ItemBridge",
+  "name": "Azonite/Phase Conveyor",
+  "size": 1,
+	"description": "Faster, longer, stronger and no holds barred",
+  "health": 500,
+  "transportTime": 0.1,
+  "range": 36,
+  "bufferCapacity": 14,
+  "canOverdrive": false,
+  "hasPower": true,
+  "consumes": {
+		"power": 5.0,
+	},
+  "category": "distribution",
+  "research": "opore-mod-azurite-conveyor",
+  "BuildVisibility": "shown",
+  "requirements": [
+    { "item": "copper", "amount": "50" },
+    { "item": "lead", "amount": "50" },
+	{ "item": "phase-fabric", "amount": "20" },
+    { "item": "opore-mod-azonite", "amount": "20" },
+  ],
+}

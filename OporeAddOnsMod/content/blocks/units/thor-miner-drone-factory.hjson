@@ -1,0 +1,25 @@
+name: Thor Miner Drone Factory
+description: A drone pad for miners of titanium and thorium.
+type: UnitFactory
+unitType: thor-miner-drone
+size: 2
+buildCostMultiplier: 0.75
+health: 600
+produceTime: 3000
+maxSpawn: 1
+consumes: {
+  power: 18
+  items: {
+    items: [
+      titanium/30
+      thorium/15
+    ]
+  }
+}
+category: units
+research: phantom-factory
+requirements: [
+  lead/1200
+  silicon/1400
+  thorium/300
+]

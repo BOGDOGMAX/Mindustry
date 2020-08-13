@@ -1,0 +1,20 @@
+type: MinerDrone
+name: Thor Miner Drone
+description: Miner of Thorium and Titanium
+speed: 0.30
+drag: 0.04
+mass: 45
+maxVelocity: 1.50
+flying: true
+health: 300
+engineOffset: 8
+engineSize: 3
+itemCapacity: 50
+range: 50
+minePower: 3.8
+retreatPercent: 0.5
+toMine: [titanium, thorium]
+weapon: {
+  name: clear
+  bullet: standardMechSmall
+}

@@ -1,0 +1,33 @@
+{
+  "type": "GenericCrafter",
+  "name": "Voidore Melter",
+  "size": 2,
+  "description": "A faster melter to turn scrap into slag",
+  "health": 500,
+  "hasLiquids": true,
+  "hasItems": true,
+  "hasPower": true,
+  "liquidCapacity": 50,
+  "itemCapacity": 12,
+  "updateEffect": "smeltsmoke",
+  "canOverdrive": true,
+  "craftTime": 5,
+  "outputLiquid": {"liquid": "slag", "amount": 8},
+  "consumes": {
+		"power": 5.0,
+		"items": {
+			"items": [
+                { "item": "scrap", "amount": 4 }
+			]
+		},
+	},
+  "category": "crafting",
+  "research": "separator",
+  "BuildVisibility": "shown",
+  "requirements": [
+    { "item": "copper", "amount": "50" },
+    { "item": "lead", "amount": "50" },
+	{ "item": "graphite", "amount": "20" },
+    { "item": "opore-mod-voidore", "amount": "50" },
+  ],
+}

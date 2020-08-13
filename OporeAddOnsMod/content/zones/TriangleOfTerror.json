@@ -1,0 +1,55 @@
+{
+	"name": "Triangle Of Terror",
+	"description": "You are going to hate the enemies coming at you from 3 sides. Launch starts level 52",
+	"loadout": "basicNucleus",
+	"baseLaunchCost": [
+    	{"item": "copper", "amount": 600},
+    	{"item": "lead", "amount": 600},
+    	{"item": "metaglass", "amount": 200},
+    	{"item": "silicon", "amount": 600},
+    	{"item": "graphite", "amount": 600},
+		{"item": "thorium", "amount": 600},
+		{"item": "opore-mod-voidore", "amount": 600},
+		{"item": "titanium", "amount": 600}
+    ],
+	"launchCost": [
+    	{"item": "copper", "amount": 600},
+    	{"item": "lead", "amount": 600},
+    	{"item": "metaglass", "amount": 200},
+    	{"item": "silicon", "amount": 600},
+    	{"item": "graphite", "amount": 600},
+		{"item": "thorium", "amount": 600},
+		{"item": "opore-mod-voidore", "amount": 600},
+		{"item": "titanium", "amount": 600}
+    ],
+    "startingItems": [
+    	{"item": "copper", "amount": 600},
+    	{"item": "lead", "amount": 600},
+    	{"item": "metaglass", "amount": 200},
+    	{"item": "silicon", "amount": 600},
+    	{"item": "graphite", "amount": 600},
+		{"item": "thorium", "amount": 600},
+		{"item": "opore-mod-voidore", "amount": 600},
+		{"item": "titanium", "amount": 600}
+    ],
+	"defaultStartingItems": [
+    	{"item": "copper", "amount": 600},
+    	{"item": "lead", "amount": 600},
+    	{"item": "metaglass", "amount": 200},
+    	{"item": "silicon", "amount": 600},
+    	{"item": "graphite", "amount": 600},
+		{"item": "thorium", "amount": 600},
+		{"item": "opore-mod-voidore", "amount": 600},
+		{"item": "titanium", "amount": 600}
+    ],
+    "conditionWave": 22,
+    "launchPeriod": 10,
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+    		"zone": "nuclearComplex", 
+    		"wave": 25
+    	}
+    ],
+    "resources": ["copper", "lead", "coal", "sand", "titanium",  "thorium", "opore-mod-opore", "opore-mod-frazzure", "opore-mod-azurite", "opore-mod-holyore", "opore-mod-voidore"]
+}

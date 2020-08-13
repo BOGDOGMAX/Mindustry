@@ -1,0 +1,21 @@
+type: BuilderDrone
+name: Raptor Builder Drone
+description: Faster Builder Drone
+speed: 1.5
+drag: 0.125
+mass: 9
+maxVelocity: 3.75
+flying: true
+health: 1000
+engineOffset: 5.75
+engineSize: 1.75
+range: 120
+buildPower: 0.4
+retreatPercent: 0.8
+weapon: {
+  name: clear
+  length: 1.5
+  reload: 10
+  alternate: true
+  bullet: lightning
+}

@@ -1,0 +1,19 @@
+{
+  "type": "router",
+  "name": "Forceglass Distributor",
+  "size": 2,
+	"description": "will it work",
+  "health": 100,
+  "speed": 1,
+  "itemCapacity": 1,
+  "canOverdrive": false,
+  "hasPower": false,
+  "category": "distribution",
+  "research": "fg-router",
+  "BuildVisibility": "shown",
+  "requirements": [
+    { "item": "copper", "amount": "5" },
+    { "item": "lead", "amount": "5" },
+	{ "item": "opore-mod-forceglass", "amount": "20" },
+  ],
+}
